@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-component
+  description: A sample component for Backstage
+  annotations:
+    github.com/project-slug: your-org/my-component
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - example
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  providesApis:
+    - my-api

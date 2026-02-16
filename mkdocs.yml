@@ -1,0 +1,8 @@
+site_name: my-component
+site_description: Documentation for my-component service
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - API Reference: api-reference.md
+plugins:
+  - techdocs-core

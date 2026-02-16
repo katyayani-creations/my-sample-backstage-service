@@ -4,7 +4,7 @@ metadata:
   name: my-component
   description: A sample component for Backstage
   annotations:
-    github.com/project-slug: your-org/my-component
+    github.com/project-slug: katyayani-creations/my-sample-backstage-service
     backstage.io/techdocs-ref: dir:.
   tags:
     - example
